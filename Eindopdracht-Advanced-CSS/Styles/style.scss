@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background: #c3cfe2;
+  font-family: "Open Sans";
+  padding: 20px;
+}
+
+.testimonial {
+  background: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  min-width: 400px;
+  position: relative;
+
+  &__text {
+    color: #575757;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 40px;
+    padding: 40px 50px 80px 50px;
+  }
+
+  &__footer {
+    color: white;
+    background: #686de0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+    height: 180px;
+
+    & img {
+      border: 6px solid white;
+      border-radius: 50%;
+      width: 120px;
+      transform: translateY(-70px);
+    }
+
+    & h2 {
+      font-weight: 300;
+      text-transform: uppercase;
+    }
+
+    & h4 {
+      font-weight: 200;
+      color: white;
+    }
+  }
+}
